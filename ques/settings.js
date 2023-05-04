@@ -66,7 +66,7 @@ class Settings {
 
     GAmount = () => {
         let amount = +this.nQues.value;
-        if (amount > 0 && amount < 15 && amount != '') {
+        if (amount > 0 && amount < 16 && amount != '') {
             return amount;
         } else {
             alert('Please Enter The Number of Qestions');
