@@ -65,12 +65,12 @@ option:hover {
 }
 .ques {
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 @media (max-width: 767px) {
     .ques {
         justify-content: center;
-        align-items: center;
     }
     .settings label {
         text-align: left;
@@ -87,11 +87,13 @@ option:hover {
 .ques h3 {
     font-size: 30px;
     margin: 15px 0;
+    text-align: left;
 }
 .ques label {
     font-size: 25px;
     margin-bottom: 20px;
     transition: 0.5s;
+    text-align: left;
 }
 #next {
     width: 200px;
