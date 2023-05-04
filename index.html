@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ques App</title>
+    <link rel="icon" href="./A.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="finaly">
+        <h2>Number of correct answers</h2>
+        <p class="score"></p>
+        <button id="again">Try Again</button>
+    </div>
+    
+    <div class="ques">
+        <p class="current">
+            <span class="done">0</span> / <span class="total">0</span> Questions
+        </p>
+        <h3 id="question"></h3>
+        <label for="a0" class="con"></label>
+        <label for="a1" class="con"></label>
+        <label for="a2" class="con"></label>
+        <label for="a3" class="con"></label>
+        <button id="next">Done</button>
+    </div>
+    <div class="settings">
+        <h1>Ques Settings</h1>
+        <div class="c">
+            <label for="category">Select Category</label>
+            <select name="category" id="category">
+                <option value="9">General Knowledge</option>
+                <option value="27">Animals</option>
+                <option value="23">History</option>
+                <option value="21">Sports</option>
+            </select>
+        </div>
+        <div>
+            <label for="dif">Difficulty</label>
+            <label for="easy">
+                <input type="radio" id="easy">
+                <span>Easy</span>
+            </label>
+            <label for="medium">
+                <input type="radio" id="medium">
+                <span>Medium</span>
+            </label>
+            <label for="hard">
+                <input type="radio" id="hard">
+                <span>Hard</span>
+            </label>
+        </div>
+        <div>
+            <label for="nQues" >Number of Questions</label>
+            <input type="number" placeholder="1 >> 15" id="nQues">
+        </div>
+        <button id="start" class="submit">Start Questions</button>
+        <p id="msgTF"></p>
+    </div>
+    <a href="https://github.com/AmrGhozy" class="dev">Designed by: Amr Ghozy</a>
+    <script src="js/script.js" type="module"></script>
+</body>
+</html>
